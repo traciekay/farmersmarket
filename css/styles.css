@@ -1,0 +1,20 @@
+.nogap{
+  margin: 0px;
+  padding: 0px;
+}
+.jumbotron{
+  height: 200px;
+}
+.thumbnail img:hover{
+  transform: scale(2);
+}
+.thumbnail img {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.thumbnail{
+  overflow: hidden;
+}
+.thumbnail{
+  padding-bottom: 0px;
+}
