@@ -1,7 +1,13 @@
-# Bank Acccount
-this is a webpage where a user can create a single bank account with an initial deposit amount. Then allow the user to make withdrawals, deposits and see the balance of the account.
+# farmersmarket
 
-# Author:
+Where Buyers Meet Farmers
+- Farmers Log in and post their produce, location, phone number and cost
+- Buyers Log in and view farmers posts and details about the farmers produce
 
-  ## Mulu Kadan
-  @MoringaSchool2017.
+
+## Group Project BY:
+- ### Tracy Kaonje
+- ### Mulu Kadan
+- ### Steve ngunjiri
+
+@Moringa 2017
