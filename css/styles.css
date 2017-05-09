@@ -25,7 +25,8 @@
     height:100%;
     overflow:hidden;
     float:left;
-    margin-right:20px
+    margin-right:20px;
+
 }
 .item figure {
     margin:0;
@@ -33,6 +34,7 @@
     position:relative;
     cursor:pointer;
     margin-left:-50px
+
 }
 .item figure img {
     display:inline;
@@ -50,18 +52,19 @@
 }
 .item figure h2 {
     font-family:'Lato';
-    color:#fff;
+    color:red;
     font-size:20px;
     text-align:left
 }
 .item figure p {
+    padding: 0px;
     display:block;
     font-family:'Lato';
     font-size:20px;
     line-height:18px;
     margin:0;
     color:#fff;
-    text-align:left
+    text-align:center;
 }
 .item figure figcaption {
     top:0;
