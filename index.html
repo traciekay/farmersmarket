@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Inconsolata|Pacifico|Quicksand|Raleway" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 
   </head>
   <body>
@@ -20,9 +20,9 @@
           <p>Contact :<span class="farmerContact"></span></p>
           <p>Location :<span class="farmerLocation"></span></p>
           <!-- Add new product button -->
-          <button type="button" name="button" id="AddFarmer"></button>
+          <button type="button" name="button" id="AddFarmer">Add new Product</button>
           <!-- Add new product form -->
-          <div class="receipt modal" id="myModal">
+          <div class="newProduce modal" id="myModal">
             <div class="modal-content">
               <span class="close">&times;</span>
               <h1>Add Farm Produce</h1>
@@ -36,9 +36,14 @@
                   <input type="number" class="form-control" id="price" placeholder="Price">
                 </div>
                 <div class="form-group">
-                  <label for="price">Quantity :</label>
+                  <label for="quantity">Quantity :</label>
                   <input type="number" class="form-control" id="quantity" placeholder="Quantity">
                 </div>
+                <div class="form-group">
+                  <label for="image">Image :</label>
+                  <input type="number" class="form-control" id="image" placeholder="Select an Image">
+                </div>
+                <button type="submit" name="button">Add Product</button>
               </form>
 
         </div>

@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $("#AddFarmer").click(function(event){
+    $(".newProduce").show();
+  });
     $("#marketplace form").submit(function(event) {
       var nameInput= $("input#name").val();
       var genderInput = $("#gender").val();
