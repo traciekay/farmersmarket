@@ -11,8 +11,9 @@ $(document).ready(function() {
 
       var new_row = "<tr><td>" + farmInput + "</td><td>" + priceInput + "</td><td>" + quantityInput +
       "</td><td>" + imageInput + "</td></tr>";
-    $("table tbody").append(new_row);
-    return false;
+
+      $("table tbody").append(new_row);
+      return false;
 
 
 
