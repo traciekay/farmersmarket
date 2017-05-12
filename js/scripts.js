@@ -3,19 +3,16 @@ $(document).ready(function() {
       $(".newProduce").show();
     });
 
-    $("#marketplace form").submit(function(event) {
+    $("#marketplace form").click(function(event) {
       var farmInput= $("input#farmProduct").val();
       var priceInput= $("input#price").val();
       var quantityInput= $("input#quantity").val();
       var imageInput = $("input#image").val();
 
-
-      $(".name").text(nameInput);
-      $(".gender").text(genderInput);
-      $(".email").text(emailInput);
-      $(".address").text(addressInput);
-      $(".purchase").text(dopInput);
-      $(".fruits").text(fruitsInput);
+      var new_row = "<tr><td>" + farmInput + "</td><td>" + priceInput + "</td><td>" + quantityInput +
+      "</td><td>" + imageInput + "</td></tr>";
+    $("table tbody").append(new_row);
+    return false;
 
 
 
