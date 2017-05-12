@@ -1,12 +1,13 @@
 $(document).ready(function() {
-  $("#AddFarmer").click(function(event){
-    $(".newProduce").show();
-  });
+    $("#AddFarmer").click(function(event){
+      $(".newProduce").show();
+    });
+
     $("#marketplace form").submit(function(event) {
       var farmInput= $("input#farmProduct").val();
       var priceInput= $("input#price").val();
-      var addressInput= $("input#quantity").val();
-      var dopInput = $("input#dop").val();
+      var quantityInput= $("input#quantity").val();
+      var imageInput = $("input#image").val();
 
 
       $(".name").text(nameInput);
@@ -17,8 +18,6 @@ $(document).ready(function() {
       $(".fruits").text(fruitsInput);
 
 
-
-      $(".receipt").show();
 
       event.preventDefault();
     });
