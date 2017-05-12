@@ -3,12 +3,10 @@ $(document).ready(function() {
     $(".newProduce").show();
   });
     $("#marketplace form").submit(function(event) {
-      var nameInput= $("input#name").val();
-      var genderInput = $("#gender").val();
-      var emailInput= $("input#email").val();
-      var addressInput= $("#address").val();
+      var farmInput= $("input#farmProduct").val();
+      var priceInput= $("input#price").val();
+      var addressInput= $("input#quantity").val();
       var dopInput = $("input#dop").val();
-      var fruitsInput = $("input:radio[name=fruits]:checked").val();
 
 
       $(".name").text(nameInput);
