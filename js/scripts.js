@@ -14,9 +14,6 @@ $(document).ready(function() {
 
       $("table tbody").append(new_row);
       return false;
-
-
-
       event.preventDefault();
     });
   });
