@@ -2,7 +2,7 @@
 
 ## Author: Traciekay
 
-![alt="photo of logo" width="100" height="100"](img/logo.jpg)
+![alt="photo of logo" width="100" height="100"](img/farm.jpg)
 
 ### **Triangle Tracker**
 
