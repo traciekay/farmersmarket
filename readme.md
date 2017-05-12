@@ -1,4 +1,4 @@
-# Online MarketPlace
+# Farmers MarketPlace
 
 ## Author: Traciekay
 
@@ -11,7 +11,7 @@ _This is a program that gets user input and prints out a receipt_
 Link to Site:
 
 ------------------
-https://github.com/traciekay/marketplace.git
+https://github.com/traciekay/farmersmarket.git
 ------------------
 
 License   
