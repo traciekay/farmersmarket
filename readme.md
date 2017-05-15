@@ -1,10 +1,10 @@
 # Farmers MarketPlace
 
-## Author: Traciekay
+## Author: Traciekay, Kadan, Steve
 
 ![alt="photo of logo" width="100" height="100"](img/farm.jpg)
 
-### **Triangle Tracker**
+### **Farmers Market**
 
 _This is a program that gets user input and prints out a receipt_
 
