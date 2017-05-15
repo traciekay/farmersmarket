@@ -6,7 +6,7 @@
 
 ### **Farmers Market**
 
-_This is a program that gets user input and prints out a receipt_
+_This is links the farmers right to the buyers_
 
 Link to Site:
 
