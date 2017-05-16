@@ -35,51 +35,58 @@
     </nav>
     <div class="container">
       <div class="jumbotron">
-
+        <h1>Where Buyers Meet Farmers</h1>
       </div>
       <nav class="navbar navbar-toggleable-md navbar-dark bg-primary">
 
           <div class="navbar-header navbar-brand ">
-              Sort by:
+              Search by:
           </div>
           <div class="" id="myNavbar">
             <ul class="nav navbar-nav ">
 
-             <form class="navbar-form navbar-left">
+             <form class="navbar-form navbar-left" id="sort">
                <div class="form-group">
                   <label class="col-xs-5 control-label">ItemName</label>
                   <div class="col-xs-7 selectContainer">
-                      <select class="form-control" name="size">
+                      <select class="form-control" name="size" id="selectedItem">
                           <option value="all">All</option>
                           <option value="banana">Banana</option>
+                          <option value="beans">Beans</option>
+                          <option value="cabbage">Cabagge</option>
+                          <option value="maize">Maize</option>
+                          <option value="mango">Mango</option>
                           <option value="onion">Onion</option>
                           <option value="potatoes">Potatoes</option>
-                          <option value="maize">Maize</option>
-                            <option value="beans">Beans</option>
+                          <option value="pawpaw">Pawpaw</option>
+                          <option value="pepper">Pepper</option>
+                          <option value="sukuma">Sukuma Wiki</option>
+                          <option value="watermelon">Water Melon</option>
                       </select>
                   </div>
               </div>
               <div class="form-group">
                  <label class="col-xs-5 control-label">Location</label>
                  <div class="col-xs-7 selectContainer">
-                     <select class="form-control" name="size">
+                     <select class="form-control" name="size" id="selectedTown">
                          <option value="all">All</option>
-                         <option value="s">Kisii</option>
-                         <option value="m">Meru</option>
-                         <option value="l">Machakos</option>
-                         <option value="xl">Nairobi</option>
-                         <option value="xl">Nairobi</option>
+                         <option value="kisii">Kisii</option>
+                         <option value="kitui">Kitui</option>
+                         <option value="machakos">Machakos</option>
+                         <option value="meru">Meru</option>
+                         <option value="nairobi">Nairobi</option>
+                         <option value="nakuru">Nakuru</option>
                      </select>
                  </div>
              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>Search</button>
             </form>
             </ul>
           </div>
       </nav>
       <div class="market">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 banana machakos">
             <div class="panel panel-primary">
               <div class="panel-heading">Banana</div>
               <div class="panel-body">
@@ -88,7 +95,7 @@
                         <figure>
                             <img src="img/banana1.jpg" alt=""/>
                             <figcaption>
-                                <h2>BANANA!</h2>
+                                <h2>BANANA</h2>
                                 <p>Farmer: Mulu Kadan, Machakos</p>
                                 <p>Cell: 0713919051</p>
                                 <p>Price: Ksh. 2 /pc</p>
@@ -100,7 +107,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 onion meru">
             <div class="panel panel-primary">
               <div class="panel-heading">Onion</div>
               <div class="panel-body">
@@ -109,7 +116,7 @@
                         <figure>
                             <img src="img/onion1.jpg" alt=""/>
                             <figcaption>
-                                <h2>Red Bulb Onion!</h2>
+                                <h2>Red Bulb Onion</h2>
                                 <p>Farmer: Vaite Murume, Meru</p>
                                 <p>Cell: 0734556676</p>
                                 <p>Price: Ksh. 20 /Kg</p>
@@ -120,7 +127,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 potatoes kisii">
             <div class="panel panel-primary">
               <div class="panel-heading">Potatoes</div>
               <div class="panel-body">
@@ -129,7 +136,7 @@
                         <figure>
                             <img src="img/potato1.jpg" alt=""/>
                             <figcaption>
-                                <h2>Potatoes!</h2>
+                                <h2>Potatoes</h2>
                                 <p>Farmer: Kemunto Nyamweya, Kisii</p>
                                 <p>Cell: 0764534690</p>
                                 <p>Price: Ksh. 50 /Kg</p>
@@ -140,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mango kitui">
             <div class="panel panel-primary">
               <div class="panel-heading">Mango</div>
               <div class="panel-body">
@@ -149,7 +156,7 @@
                           <figure>
                               <img src="img/mango.jpg" alt=""/>
                               <figcaption>
-                                  <h2>Mango!</h2>
+                                  <h2>Mango</h2>
                                   <p>Farmer: Ann Mita, Kitui</p>
                                   <p>Cell: 073454456</p>
                                   <p>Price: Ksh. 30 /Kg</p>
@@ -160,9 +167,8 @@
               </div>
             </div>
           </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
+
+        <div class="col-md-3 beans nairobi">
           <div class="panel panel-primary">
             <div class="panel-heading">Beans</div>
             <div class="panel-body">
@@ -171,7 +177,7 @@
                       <figure>
                           <img src="img/beans1.jpg" alt=""/>
                           <figcaption>
-                              <h2>Beans!</h2>
+                              <h2>Beans</h2>
                               <p>Farmer: Annita Mui, Nairobi</p>
                               <p>Cell: 0713346643</p>
                               <p>Price: Ksh. 30 /Kg</p>
@@ -183,7 +189,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 beans meru">
           <div class="panel panel-primary">
             <div class="panel-heading">Beans</div>
             <div class="panel-body">
@@ -192,7 +198,7 @@
                         <figure>
                             <img src="img/beans2.jpg" alt=""/>
                             <figcaption>
-                                <h2>Beans!</h2>
+                                <h2>Beans</h2>
                                 <p>Farmer: Nkirote Mry, Meru</p>
                                 <p>Cell: 0734445334</p>
                                 <p>Price: Ksh. 40 /Kg</p>
@@ -203,7 +209,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 maize nairobi">
           <div class="panel panel-primary">
             <div class="panel-heading">Maize</div>
             <div class="panel-body">
@@ -212,7 +218,7 @@
                         <figure>
                             <img src="img/maize1.jpg" alt=""/>
                             <figcaption>
-                                <h2>Maize!</h2>
+                                <h2>Maize</h2>
                                 <p>Farmer: Betty muken, Nairobi</p>
                                 <p>Cell: 073454456</p>
                                 <p>Price: Ksh. 30 /Kg</p>
@@ -223,7 +229,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 cabbage nakuru">
           <div class="panel panel-primary">
             <div class="panel-heading">Cabbage</div>
             <div class="panel-body">
@@ -232,7 +238,7 @@
                         <figure>
                             <img src="img/cabbage.jpg" alt=""/>
                             <figcaption>
-                                <h2>Cabbage!</h2>
+                                <h2>Cabbage</h2>
                                 <p>Farmer: Ones Kamau, Nakuru</p>
                                 <p>Cell: 073454434</p>
                                 <p>Price: Ksh. 30 /Kg</p>
@@ -243,9 +249,8 @@
             </div>
           </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
+
+      <div class="col-md-3 potatoes machakos">
         <div class="panel panel-primary">
           <div class="panel-heading">Potatoes</div>
           <div class="panel-body">
@@ -254,7 +259,7 @@
                       <figure>
                           <img src="img/potato2.jpg" alt=""/>
                           <figcaption>
-                              <h2>Potatoes!</h2>
+                              <h2>Potatoes</h2>
                               <p>Farmer: Mike Muli, Machakos</p>
                               <p>Cell: 0713914566</p>
                               <p>Price: Ksh. 40 /Kg</p>
@@ -266,7 +271,7 @@
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3 onion meru">
         <div class="panel panel-primary">
           <div class="panel-heading">Onion</div>
           <div class="panel-body">
@@ -275,7 +280,7 @@
                       <figure>
                           <img src="img/onion2.jpg" alt=""/>
                           <figcaption>
-                              <h2>Onion!</h2>
+                              <h2>Onion</h2>
                               <p>Farmer: Vaite Murume, Meru</p>
                               <p>Cell: 0734556676</p>
                               <p>Price: Ksh. 40 /Kg</p>
@@ -286,7 +291,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 maize nakuru">
         <div class="panel panel-primary">
           <div class="panel-heading">Maize</div>
           <div class="panel-body">
@@ -295,7 +300,7 @@
                       <figure>
                           <img src="img/maize2.jpg" alt=""/>
                           <figcaption>
-                              <h2>Maize!</h2>
+                              <h2>Maize</h2>
                               <p>Farmer: Chris aden, Nakuru</p>
                               <p>Cell: 0734556670</p>
                               <p>Price: Ksh. 20 /Kg</p>
@@ -306,7 +311,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pawpaw machakos">
         <div class="panel panel-primary">
           <div class="panel-heading">Pawpaw</div>
           <div class="panel-body">
@@ -315,7 +320,7 @@
                       <figure>
                           <img src="img/pawpaw.jpg" alt=""/>
                           <figcaption>
-                              <h2>Pawpaw!</h2>
+                              <h2>Pawpaw</h2>
                               <p>Farmer: Jack Mutinda, Machakos</p>
                               <p>Cell: 073454411</p>
                               <p>Price: Ksh. 70 /Kg</p>
@@ -326,9 +331,8 @@
           </div>
         </div>
       </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
+
+    <div class="col-md-3 potatoes machakos">
       <div class="panel panel-primary">
         <div class="panel-heading">Potato</div>
         <div class="panel-body">
@@ -337,7 +341,7 @@
                     <figure>
                         <img src="img/potato3.jpg" alt=""/>
                         <figcaption>
-                            <h2>Potatoes!</h2>
+                            <h2>Potatoes</h2>
                             <p>Farmer: Mully Farm, Machakos</p>
                             <p>Cell: 0713919051</p>
                             <p>Price: Ksh. 40 /Kg</p>
@@ -349,7 +353,7 @@
       </div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 maize meru">
       <div class="panel panel-primary">
         <div class="panel-heading">Maize</div>
         <div class="panel-body">
@@ -358,7 +362,7 @@
                     <figure>
                         <img src="img/maize3.jpg" alt=""/>
                         <figcaption>
-                            <h2>Maize!</h2>
+                            <h2>Maize</h2>
                             <p>Farmer: Ones Maua, Meru</p>
                             <p>Cell: 0734556676</p>
                             <p>Price: Ksh. 20 /Kg</p>
@@ -369,7 +373,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 sukuma meru">
       <div class="panel panel-primary">
         <div class="panel-heading">Sukuma Wiki</div>
         <div class="panel-body">
@@ -378,7 +382,7 @@
                     <figure>
                         <img src="img/sukuma1.jpg" alt=""/>
                         <figcaption>
-                            <h2>Sukuma Wiki!</h2>
+                            <h2>Sukuma Wiki</h2>
                             <p>Farmer: Agnes Mwari, Meru</p>
                             <p>Cell: 0734556676</p>
                             <p>Price: Ksh. 20 /Kg</p>
@@ -389,7 +393,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 tomatoes kisii">
       <div class="panel panel-primary">
         <div class="panel-heading">Tomatoes</div>
         <div class="panel-body">
@@ -398,7 +402,7 @@
                     <figure>
                         <img src="img/tomato.jpg" alt=""/>
                         <figcaption>
-                            <h2>Tomatoes!</h2>
+                            <h2>Tomatoes</h2>
                             <p>Farmer: Fred Moches, Kisii</p>
                             <p>Cell: 073454454</p>
                             <p>Price: Ksh. 60 /Kg</p>
@@ -409,9 +413,8 @@
         </div>
       </div>
     </div>
-</div>
-<div class="row">
-  <div class="col-md-3">
+
+  <div class="col-md-3 banana nakuru">
     <div class="panel panel-primary nogap">
       <div class="panel-heading">Banana</div>
       <div class="panel-body">
@@ -420,7 +423,7 @@
                 <figure>
                     <img src="img/banana2.jpg" alt=""/>
                     <figcaption>
-                        <h2>BANANA!</h2>
+                        <h2>BANANA</h2>
                         <p>Farmer: Moses Mukiri, Nakuru</p>
                         <p>Cell: 0713919051</p>
                         <p>Price: Ksh. 35 /Kg</p>
@@ -432,7 +435,7 @@
     </div>
   </div>
 
-  <div class="col-md-3">
+  <div class="col-md-3 sukuma kisii">
     <div class="panel panel-primary nogap">
       <div class="panel-heading">Sukuma</div>
       <div class="panel-body">
@@ -441,7 +444,7 @@
                <figure>
                    <img src="img/sukuma2.jpg" alt=""/>
                    <figcaption>
-                       <h2>SUKUMA WIKI!</h2>
+                       <h2>SUKUMA WIKI</h2>
                        <p>Farmer: Kelvin Misiori, Kisii</p>
                        <p>Cell: 0734556563</p>
                        <p>Price: Ksh. 25 /Kg</p>
@@ -452,7 +455,7 @@
       </div>
     </div>
 </div>
-  <div class="col-md-3">
+  <div class="col-md-3 watermelon meru">
     <div class="panel panel-primary nogap">
     <div class="panel-heading">Water Melon</div>
     <div class="panel-body">
@@ -461,7 +464,7 @@
             <figure>
                 <img src="img/watermelon1.jpg" alt=""/>
                 <figcaption>
-                    <h2>WATER MELON!</h2>
+                    <h2>WATER MELON</h2>
                     <p>Farmer: Vaite Murume, Meru</p>
                     <p>Cell: 0734556676</p>
                     <p>Price: Ksh. 30 /Kg</p>
@@ -472,7 +475,7 @@
     </div>
   </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-3 pepper kitui">
     <div class="panel panel-primary">
       <div class="panel-heading">Pepper</div>
       <div class="panel-body">
@@ -481,18 +484,23 @@
                   <figure>
                       <img src="img/pepper.jpg" alt=""/>
                       <figcaption>
-                          <h2>Pepper!</h2>
+                          <h2>Pepper</h2>
                           <p>Farmer: Carol Msii, Kitui</p>
                           <p>Cell: 073454330</p>
-                          <p>Price: Ksh. 40 /Kg</p>
+                          <p>Price: Ksh. 60 /Kg</p>
                       </figcaption>
-                  </figure>
-              </li>
-          </ul>
-      </div>
-    </div>
-  </div>
-</div>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="searchMessage">
+          <img src="" alt="" id="loadingImg">
+          <h2><span class="searchResults"></span></h2>
+        </div>
+
     </div>
   </body>
 </html>
