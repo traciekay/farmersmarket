@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Inconsolata|Pacifico|Quicksand|Raleway" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
     <script type="text/javascript" src="js/scripts.js"></script>
 
   </head>
@@ -20,13 +21,15 @@
           <p>Contact :<span class="farmerContact"></span></p>
           <p>Location :<span class="farmerLocation"></span></p>
           <!-- Add new product button -->
-          <button type="button" name="button" id="AddFarmer">Add new Product</button>
+          <button type="button" name="button" id="AddFarmer" data-toggle="modal" data-target="#myModal">Add new Product</button>
           <!-- Add new product form -->
-          <div class="newProduce modal" id="myModal">
+          <div class="modal newProduce" id="myModal">
             <div class="modal-content">
+            <!-- <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog"> -->
               <span class="close">&times;</span>
               <h1>Add Farm Produce</h1>
-              <form id="marketplace">
+              <form>
                 <div class="form-group">
                   <label for="farmProduct">Farm Product :</label>
                   <input type="text" class="form-control" id="farmProduct" placeholder="Farm Produce" required>
@@ -41,13 +44,15 @@
                 </div>
                 <div class="form-group">
                   <label for="image">Image :</label>
-                  <input type="file" name="pic" accept="image/*" id="image" >
+                  <input type="file" name="pic" accept="image/*" id="image" class="file" >
                 </div>
-                <button type="submit" name="button">Add Product</button>
+                <button type="submit" name="button" id="marketplace">Add Product</button>
               </form>
 
         </div>
       </div>
+
+
       <div class="">
         <table class="table controls controls-row">
           <thead>
