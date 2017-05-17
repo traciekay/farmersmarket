@@ -11,7 +11,7 @@ $(document).ready(function() {
       var imageInput = $("#image").val().replace(/.*\\(.*)/, '$1')
 
       var new_row = "<tr><td>" + farmInput + "</td><td>" + priceInput + "</td><td>" + quantityInput +
-      "</td><td><img src='img/" + imageInput + "'></td></tr>";
+      "</td><td><img src='img/" + imageInput + "' class='img-responsive'></td></tr>";
 
       $("table tbody").append(new_row);
       $(".newProduce").hide();

@@ -1,25 +1,14 @@
-.logo{
-  background-image: url("../img/logo.jpg");
-  height: 304px;
-}
 
-.receipt{
-  display: none;
-  text-align: center;
-}
 h1{
   text-align: center;
-  color: #ff7d00;
+  color: green;
   font-family: 'Raleway', sans-serif;
 }
 
 label{
-  color: #a39600;
+  color: green;
 }
-.pdesc{
-  color: #a0497d
 
-}
 
 .modal {
     display: none; /* Hidden by default */
@@ -82,10 +71,48 @@ label{
 }
 
 h2{
-  color: #a39600;
+  color: green;
   font-family: 'Pacifico', cursive;
 }
 
-table td img{
-      height:73px !important;
-    }
+
+img {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  text-align: left;
+}
+
+.avatar{
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.btn{
+  color: white;
+  background-color: green;
+}
+
+.btn:hover{
+  color: green;
+  background-color: white;
+  border-color: green;
+}
+
+#image + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+#image:focus + label,
+#image + label:hover {
+    background-color: red;
+}
