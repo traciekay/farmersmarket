@@ -15,6 +15,7 @@ $(document).ready(function() {
 
       $("table tbody").append(new_row);
       $(".newProduce").hide();
+      $("form").trigger("reset");
       return false;
 
     });
