@@ -85,3 +85,7 @@ h2{
   color: #a39600;
   font-family: 'Pacifico', cursive;
 }
+
+table td img{
+      height:73px !important;
+    }
