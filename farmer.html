@@ -13,44 +13,70 @@
   </head>
   <body>
     <div class="container">
-      <div class="row sama">
+      <div class="row">
         <div class="col-md-12">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#" id="logo">Farmers Market</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#">Test Report</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Downloads</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row sama">
+        <div class="col-md-8 col-md-offset-2">
           <!-- Farmers details -->
           <img src="img/user.png" alt="User Avatar" class="avatar">
-          <p>Name :<span class="farmerName"></span></p>
-          <p>Contact :<span class="farmerContact"></span></p>
-          <p>Location :<span class="farmerLocation"></span></p>
+          <p class="userDesc">Name :<span class="farmerName"></span></p>
+          <p class="userDesc">Contact :<span class="farmerContact"></span></p>
+          <p class="userDesc">Location :<span class="farmerLocation"></span></p>
           <!-- Add new product button -->
           <button type="button" name="button" id="AddFarmer" class="btn btn-lg" data-toggle="modal" data-backdrop="true">Add new Product</button>
           <!-- Add new product form -->
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <table class="table controls controls-row">
+              <thead>
+                <tr>
+            		  <th> Product Name </th>
+                  <th> Price (Ksh)</th>
+            		  <th> Quantity (Kg)</th>
+                  <th> Image </th>
+                  <th> Status </th>
+            	 </tr>
+               <tr>
+                 <td>Tomatoes</td>
+                 <td>200</td>
+                 <td>10</td>
+                 <td><img src="img/farm.jpg" alt="Tomatoes" class="img-responsive"></td>
+                 <td>Sold</td>
+              </tr>
+             </thead>
+             <tbody>
+             </tbody>
+           </table>
 
-
-      <div class="">
-        <table class="table controls controls-row">
-          <thead>
-            <tr>
-        		  <th> Product Name </th>
-              <th> Price (Ksh)</th>
-        		  <th> Quantity (Kg)</th>
-              <th> Image </th>
-              <th> Status </th>
-        	 </tr>
-           <tr>
-             <td>Tomatoes</td>
-             <td>200</td>
-             <td>10</td>
-             <td><img src="img/farm.jpg" alt="Tomatoes" class="img-responsive"></td>
-             <td>Sold</td>
-          </tr>
-         </thead>
-         <tbody>
-         </tbody>
-       </table>
-
-</div>
+    </div>
 
         </div>
+
       </div>
 
       <div class="row">

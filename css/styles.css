@@ -1,4 +1,7 @@
-
+#logo {
+    font-size: 24pt;
+    font-weight: bold;
+}
 h1{
   text-align: center;
   color: green;
@@ -88,7 +91,6 @@ td {
 }
 
 .avatar{
-  float: left;
   height: 100px;
   width: 100px;
 }
@@ -102,4 +104,30 @@ td {
   color: green;
   background-color: white;
   border-color: green;
+}
+
+.sama{
+      padding-top: 101px;
+}
+.navbar-inverse {
+    background-color: green;
+    border-color: none !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: green;
+    background-color: white;
+    border-color: none !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.userDesc{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
