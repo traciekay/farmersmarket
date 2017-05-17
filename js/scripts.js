@@ -18,4 +18,7 @@ $(document).ready(function() {
       return false;
 
     });
+    $(".close").click(function(){
+      $(".newProduce").hide();
+    });
   });

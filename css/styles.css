@@ -103,16 +103,3 @@ td {
   background-color: white;
   border-color: green;
 }
-
-#image + label {
-    font-size: 1.25em;
-    font-weight: 700;
-    color: white;
-    background-color: black;
-    display: inline-block;
-}
-
-#image:focus + label,
-#image + label:hover {
-    background-color: red;
-}
