@@ -131,3 +131,12 @@ td {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
+.footer{
+  background-color: green;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
