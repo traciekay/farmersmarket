@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Farmersmarket</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/farmerstyles.css">
+    <link rel="stylesheet" href="css/bootstrapValidator.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Inconsolata|Pacifico|Quicksand|Raleway" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/farmerscripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html" id="logo">Farmersmarket</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Buyers</a></li>
+                <li><a href="buyer.html">Buyers</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="index.html">Log Out</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row sama">
+        <div class="col-md-10 col-md-offset-1">
+          <!-- Farmers details -->
+          <img src="img/user.png" alt="User Avatar" class="avatar">
+          <p class="userDesc">Name :    <span class="farmerName"></span></p>
+          <p class="userDesc">Contact :    <span class="farmerContact"></span></p>
+          <p class="userDesc">Location :    <span class="farmerLocation"></span></p>
+          <!-- Add new product button -->
+          <button type="button" name="button" id="AddFarmer" class="btn btn-lg" data-toggle="modal" data-backdrop="true">Add new Product</button>
+          <!-- Add new product form -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <table class="table controls controls-row">
+              <thead>
+                <tr>
+            		  <th> Product Name </th>
+                  <th> Price (Ksh)</th>
+            		  <th> Quantity (Kg)</th>
+                  <th> Image </th>
+                  <th> Status </th>
+            	 </tr>
+               <tr>
+                 <td>Tomatoes</td>
+                 <td>200</td>
+                 <td>10</td>
+                 <td><img src="img/farm.jpg" alt="Tomatoes" class="img-responsive"></td>
+                 <td>Sold</td>
+              </tr>
+             </thead>
+             <tbody>
+             </tbody>
+           </table>
+
+    </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="modal newProduce" id="myModal">
+            <div class="modal-content">
+            <!-- <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog"> -->
+              <span class="close">&times;</span>
+              <h1>Add Farm Produce</h1>
+              <form class="farmer">
+                <div class="form-group">
+                  <label for="farmProduct">Farm Product :</label>
+                  <input type="text" class="form-control" id="farmProduct" placeholder="Farm Produce" required>
+                </div>
+                <div class="form-group">
+                  <label for="price">Price :</label>
+                  <input type="number" class="form-control" id="price" placeholder="Price" required>
+                </div>
+                <div class="form-group">
+                  <label for="quantity">Quantity :</label>
+                  <input type="number" class="form-control" id="quantity" placeholder="Quantity" required>
+                </div>
+                <div class="form-group">
+                  <label for="image">Image :</label>
+                  <input type="file" name="pic" accept="image/*" id="image" class="form-control-file" >
+                </div>
+                <button type="submit" name="button" id="marketplace" class="btn btn-default">Add Product</button>
+              </form>
+
+        </div>
+      </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer clearfix">
+              <a href="#">Farmers Market</a>
+              <p>
+                  Copyright © 2017 All right reserved
+              </p>
+          </div>
+
+  </body>
+</html>
