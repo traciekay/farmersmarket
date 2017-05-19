@@ -299,7 +299,7 @@ body{
 .container {
     padding: 0px;
 }
-#toRegForm{
+#toRegForm, #toUserLogin{
   color: green;
   text-decoration: none;
 }
