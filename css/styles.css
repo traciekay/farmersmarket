@@ -303,3 +303,6 @@ body{
   color: green;
   text-decoration: none;
 }
+.register{
+  display: none;
+}
